@@ -1,0 +1,352 @@
+/*----contact area-----*/
+
+#contact .midashi{
+    border-top: 1px solid #cccccc;
+    border-bottom:1px solid #ffffff;
+}
+
+#contact .midashi h1{
+    background: #101084;
+    border-top:1px solid #ffffff;
+    border-bottom:1px solid #cccccc;
+    color: #FFF;
+    padding:1em 0;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+#contact .midashi p{
+    margin: 1em 0;
+}
+
+#container {
+    width: 800px;
+    margin: 15px auto;
+}
+
+h2.tabletitle{
+    font-size: 95%;
+    font-weight: bold;
+    margin: 10px 0 4px;
+    padding: 0;
+}
+
+p.infoadd{
+    border-bottom:  1px dotted #CCC;
+}
+
+/*----tableform area-----*/
+
+.tableform{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 80%;
+}
+
+h3.tablename{
+    color: #767676;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 25px 0 8px;
+}
+
+h4.title{
+    background: #dfdbd4;
+    font-size: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    margin: 0px;
+}
+
+h4.notitle{
+    background: #e6e6e6;
+    font-size: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    margin: 0px;
+}
+
+h4 span.item{
+    background-color: #CC0000;
+    color: #fff;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: normal;
+    margin-right: 5px;
+    min-width: 28px;
+    padding: 1px;
+    text-align: center;
+}
+
+h4.notitle span.noitem {
+    background-color: #666666;
+    color: #fff;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: normal;
+    margin-right: 5px;
+    min-width: 28px;
+    padding: 1px;
+    text-align: center;
+}
+
+.tableform .form_line{
+    display: table;
+    width: 100%;
+}
+
+.tableform .form_line .form_item{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+    background-color: #E9E6E0;
+}
+
+.tableform .form_line .form_item {
+    padding: 8px;
+    display: table-cell;
+    width: 22%;
+    border-right: 1px solid #FFFFFF;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.Kanji, .Kana {
+    text-align: left;
+    padding: 0;
+    height: 20px;
+    width: 25px;
+}
+
+.Eng {
+    text-align: left;
+    padding: 0;
+    height: 20px;
+    width: 45px;
+}
+
+.Kanji input, .Kana input, .Eng input{
+    margin: 0em;
+}
+
+.tableform .form_line .form_cont{
+    box-sizing: border-box;
+    padding: 8px;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    vertical-align: top;
+}
+
+.tableform .form_line .form_cont .form_cont_in{
+    float: left;
+    padding: 5px;
+}
+
+
+.tableform .form_line .form_cont .family{
+    margin-right: 5px;
+}
+.tableform .form_line .form_cont .name{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.tableform .form_line .form_cont .formp{
+    text-align: left;
+    margin: 0;
+    font-weight: normal;
+    width: 200px;
+}
+
+.tableform .form_line .form_cont span.example{
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
+
+.tableform .form_line .form_cont ul.note{
+    list-style: none;
+    padding-left: 5px;
+    float: left;
+    margin-top: 20px;
+}
+
+.tableform .form_line .form_cont ul.note li{
+    list-style: '※';
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.tableform .form_line .form_cont span.formyear{
+    margin-right: 5px; 
+}
+.tableform .form_line .form_cont span.formmonth,.tableform .form_line .form_cont span.formday{
+    margin-right: 5px; 
+    margin-left: 10px;
+}
+
+.softkey {
+    background: url(/amcservice/members/image/keyboard/icon_arrow_blue.gif) no-repeat 0 8px;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 8px;
+    padding-left: 8px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #023ba8;
+}
+
+.tableform p.Webpass{
+    background: #dfdbd4;
+    font-size: 100%;
+    padding: 0px 10px 8px;
+    border-bottom: 1px solid #fff;
+}
+
+span.postmark{
+    margin: 0 10px;
+}
+
+span.example{
+    width: 190px;
+}
+
+#btn{
+    background-color: rgb(138, 95, 2);
+    color: #fff;
+    vertical-align: middle;
+    margin: 0 15px;
+    padding: 5px 8px 6px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.tableform .form_line .form_cont ul.formadd{
+    list-style: none;
+    padding-left: 10px;
+}
+.tableform .form_line .form_cont ul li.mailadd{
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.tableform .form_line .form_cont span.dt{
+    padding: 4px 8px;
+    border-width: 1px 1px 0 0;
+    vertical-align: middle;
+    width: 59px;
+    display: table-cell;
+    margin: 4px 0 15px;
+}
+.tableform .form_line .form_cont span.dd{
+    display: table-cell;
+    border-width: 1px 1px 0 0;
+    margin: 4px 0 15px;
+}
+
+p.agrcheck{
+    font-size: 80%;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+span.agritem{
+    background-color: #CC0000;
+    color: #fff;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: normal;
+    margin-right: 5px;
+    min-width: 28px;
+    padding: 1px;
+    text-align: center;
+}
+
+h2.infoline{
+    border-top: 1px dashed #999999;
+    padding: 15px 0 5px;
+    margin: 25px 0 0 0 ;
+    font-size: 90%;
+    font-family: serif;
+}
+
+#container .infobox{
+    background: #f3f3f3;
+    padding: 10px 15px;
+}
+
+#container ul.infocont {
+    font-size: 75%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container ul.infocont li{
+    list-style: '・';
+    padding-right: 8px;
+}
+
+.box {
+    height: 100px;
+    border: 1px solid;
+    overflow-y: scroll;
+}
+
+.btnarea{
+    margin: 20px auto 20px;
+    text-align: center;
+}
+
+.btnarea input{
+    width: 226px;
+    height: 34px;
+    background: rgb(16, 77, 190);
+    color: #FFF;
+    letter-spacing: 0.4em;
+}
+
+#footerArea {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.footerline {
+    width: 950px;
+    margin: auto;
+    border-top: 1px solid #666666;
+}
+
+.footer_links{
+    float: right;
+    font-size: 10px;
+    list-style: none;
+}
+
+.footer_links li {
+    margin: 5px 0;
+    padding-left: 0.4em;
+    float: left;
+}
+
+.footer_links li:after {
+    content: " | ";
+}
+
+.footer_links li a {
+    text-decoration: none;
+}
+
+.footer_links li a:visited {
+    color: #808080;
+}
+
+.footert_copy{
+    border-top: 3px solid #101084;
+    clear: both;
+    font-size: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}

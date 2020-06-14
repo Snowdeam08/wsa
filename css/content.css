@@ -1,0 +1,223 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.tabiinfo1{
+    background: #f0f1f4;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.basic-inner {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.basic-inner header{
+    display: block;
+}
+
+.basic-inner h2.titleBlock01{
+    background: url(../images/ttl_asv_001.png) left center no-repeat;
+    color: #4b4848;
+    font-size: 200%;
+    padding-left: 110px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#tabibox{
+    width: 500px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/*国内線４つ*/
+#tabibox .infoimg01{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokunai/hokkaido.png)
+}
+
+#tabibox .infoimg02{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokunai/hakata.png)
+}
+
+#tabibox .infoimg03{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokunai/okinawa.png)
+}
+
+#tabibox .infoimg04{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokunai/osaka.png)
+}
+
+/* 国際線４つ */
+#tabibox .infoimg001{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokusai/Honolulu.png)
+}
+
+#tabibox .infoimg002{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokusai/Paris.png)
+}
+
+#tabibox .infoimg003{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokusai/Wien.png)
+}
+
+#tabibox .infoimg004{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(/WSA/images/kokusai/LosAngeles.png)
+}
+
+
+#tabibox .infotext{
+    width: 320px;
+    float: right;
+    margin-left: 28px;
+}
+
+#tabibox .infotext .text{
+    padding-top: 40px;
+    display: block;
+    bottom: 74px;
+    border-bottom: 1px dotted #bbb;
+    color: #333;
+    padding-bottom: 10px;
+    font-size: 114.28571%;
+    line-height: 1.3;
+}
+
+#tabibox .infotext .price{
+    font-size: 242.85714%;
+    color: #da0303;
+}
+
+#tabibox .infotext .yen{
+    font-size: 41.17647%;
+}
+
+.textinner {
+    width: 100%;
+}
+.textinner .note{
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    color: #666666;
+    font-size: 85.71429%;
+}
+
+.btnbox{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btnbox .btn{
+    background-color: #13348f;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+.btnbox .btn a{
+    padding: 15px 40px 15px 20px;
+    line-height: 14px;
+    color: #fff;
+    display: block;
+}
+
+.btnbox .btn:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 13px;
+    top: 50%;
+    right: 10px;
+    background: url(/WSA/images/ico_arrow_007.png) no-repeat;
+    margin-top: -6px;
+}
+
+#bnrbox{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#bnrbox ul li{
+    width: 318px;
+    float: left;
+    margin-left: 18px;
+}
+
+#bnrbox ul li a{
+    display: block;
+}
+
+#bnrbox ul li p.info{
+    margin-top: 5px;
+    line-height: 1.5;
+}
+

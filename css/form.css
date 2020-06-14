@@ -1,0 +1,446 @@
+ul {
+    list-style: none;
+}
+
+.title-tab{
+    background: url(../images/bg_whte_opacity9.png) left top repeat;
+    overflow: hidden;
+    width: 90px;
+    height: 450px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    margin: 0;
+    padding: 0;
+}
+.title-tab li{
+    position: relative;
+    text-align: center;
+    color: #ddd;
+    font-weight: normal;
+    margin-top: 1.5px;
+    cursor: pointer;
+    height: 90px;
+    zoom: 1;
+    font-size: 75.71429%;
+}
+
+.title-tab li a{
+    position: relative;
+    display: block;
+    background: #405dca;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    height: 70px;
+    border-radius: 4px 0 0 4px;
+}
+.title-tab li a:hover,
+.title-tab li a.active{
+    background: #ddd;
+    color: #333;
+}
+
+.title-tab li a span {
+    display: block;
+    position: relative;
+    padding-top: 48px;
+}
+
+.title-tab li span:after {
+    top: 24px;
+}
+
+/*航空券ボタン*/
+.title-tab li.ticket span:after {
+    background-image: url(/htdocs/ANA/images/modtab.png);
+    background-position: 0 -28px;
+    height: 19px;
+    width: 28px;
+    top: 29px;
+    left: 29px;
+}
+/*航空券＋宿泊「旅作」ボタン*/
+.title-tab li.tabisaku span{
+    padding-top: 38px;
+}
+.title-tab li.tabisaku span:after {
+    background-image: url(/htdocs/ANA/images/modtab.png);
+    background-position: 0 -28px;
+    height: 19px;
+    width: 28px;
+    top: 29px;
+    left: 29px;
+}
+/*ホテル*/
+.title-tab li.hotel span:after {
+    background-image: url(/htdocs/ANA/images/modtab.png);
+    background-position: 0 -28px;
+    height: 19px;
+    width: 28px;
+    top: 29px;
+    left: 29px;
+}
+/*レンタカー*/
+.title-tab li.car span:after {
+    background-image: url(/htdocs/ANA/images/modtab.png);
+    background-position: 0 -28px;
+    height: 19px;
+    width: 28px;
+    top: 29px;
+    left: 29px;
+}
+/*遊び・体験*/
+.title-tab li.traffic span:after {
+    background-image: url(/htdocs/ANA/images/modtab.png);
+    background-position: 0 -28px;
+    height: 19px;
+    width: 28px;
+    top: 29px;
+    left: 29px;
+}
+
+.site{
+    position: relative;
+    padding-left: 90px;
+}
+
+/*右サイドバー*/
+.tabcontent{
+    display: block;
+    background: url(/htdocs/ANA/images/bg_whte_opacity9.png) left top repeat;
+    border: 1px dotted #ccc;
+}
+
+.normal-radio-group {
+    margin-bottom: 10px;
+}
+.normal-radio-group li {
+    float: left;
+    margin-right: 20px;
+}
+
+.ico-radio input[type="radio"] {
+    display: inline-block;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.ico-radio input[type=radio] + label::before, .ico-checkbox input[type=radio] + label::before {
+    background-position: 0 -135px;
+    height: 20px;
+    width: 20px;
+    margin-top: -10px;
+}
+
+.select-arr, .select-dep {
+    width: 184px;
+}
+.select-arr, .select-dep {
+    padding: 5px 35px 5px 19px;
+    min-height: 42px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #dddddd;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+}
+.select-dep:after, .select-dep-02:after {
+    background-image: url(/htdocs/ANA/images/modparts.png);
+    background-position: 0 -92px;
+    content: "";
+    display: block;
+    height: 11px;
+    width: 18px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -5px;
+}
+
+.item-val {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 19px;
+    padding-top: 5px;
+    padding-right: 35px;
+    font-size: 14px !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-weight: normal;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ticket-box {
+    position: relative;
+}
+
+.ttl_4em, .ttl_6em {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ttl_4em dt {
+    width: 4em;
+    text-align: right;
+    padding-right: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ttl_4em dd {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.set-depDate {
+    margin-bottom: 0;
+}
+
+.set-arrDate {
+    margin-top: 0;
+}
+
+.set-depDate .item-input {
+    border-bottom: none;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 4px 0 0;
+    margin: 0px;
+    padding:0px;
+}
+
+.set-arrDate .item-input {
+    border-top: none;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 0 0 4px 4px;
+    margin: 0px;
+    padding:0px;
+}
+
+.item-input {
+    padding: 5px 35px 5px 19px;
+    min-height: 42px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #dddddd;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.ttl_black dd {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item-num-set {
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    background: #fff;
+    height: 42px;
+    border: 1px solid #dddddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.item-num-set > li.item-num-down {
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.item-num-set > li.item-num-down, .item-num-set > li.item-num-up {
+    width: 42px;
+    color: #13448f;
+    background: #f0f1f5;
+    overflow: hidden;
+}
+
+.item-num-set > li:first-child {
+    border-left: none;
+}
+
+.item-num-set > li {
+    border-left: 1px solid #ddd;
+    cursor: pointer;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.item-num-set > li.item-num-val .mod-customSelect {
+    display: block;
+}
+
+.item-num-set > li.item-num-val .mod-customSelect > li {
+    height: 40px;
+}
+
+.item-num-set > li.item-num-down {
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.item-num-set > li.item-num-val .mod-customSelect > li > span.item-val {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.mod-customSelect ul.mod-option {
+    border-top: 1px solid #ddd;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* width: 100%; */
+    background: #fff;
+    z-index: 10;
+    max-height: 200px;
+    max-height: 260px;
+    overflow: auto;
+}
+
+.mod-customSelect ul.mod-option li {
+    display: block;
+    float: none;
+    padding: 10px;
+    font-weight: normal;
+    border: 1px solid #ddd;
+    border-top: none;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.mod-customSelect ul.mod-option li.mod-current {
+    background: #e9eef4;
+}
+
+.item-childAdd {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.item-childAdd span {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+}
+
+.item-childAdd span:after {
+    background-image: url(/_shared/images/root/common/modparts.png);
+    background-position: 0 -77px;
+    content: "";
+    display: block;
+    height: 15px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -8px;
+}
+
+/*検索ボタン*/
+.module .btnArea-bottom li.btn-search {
+    padding: 13px 10px;
+    width: 160px;
+}
+.module .btnArea-bottom li p {
+    padding: 0;
+}
+.module .btnArea-bottom li.btn-add {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 9px 10px 8px 39px;
+    position: relative;
+    font-weight: normal;
+    width: 120px;
+    text-align: left;
+    font-size: 85.71429%;
+}
+
+.module .btnArea-bottom li {
+    float: left;
+    width: 140px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: normal;
+    padding: 15px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.module .btn-search {
+    background: #d74100;
+    border: 1px solid #cb730e;
+}
+
+.btn {
+    cursor: pointer;
+    position: relative;
+    line-height: 1.2;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.module .btnArea-bottom li.btn-add:after {
+    background-image: url(/_shared/images/root/common/modparts.png);
+    background-position: 0 0;
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -10px;
+}
+.module .btnArea-bottom li.btn-add {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 9px 10px 8px 39px;
+    position: relative;
+    font-weight: normal;
+    width: 120px;
+    text-align: left;
+    font-size: 85.71429%;
+}
+.module .btnArea-bottom li {
+    float: left;
+}

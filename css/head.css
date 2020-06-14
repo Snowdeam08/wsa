@@ -1,0 +1,515 @@
+ul,li,p,span,form{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}
+
+#Wrap {
+    position: relative;
+    min-width: 1100px;
+    margin: 0 auto;
+}
+
+#HeadOpen h1 {
+    margin: 17px 0;
+}
+
+#HeadOpen.first {
+    overflow: hidden !important;
+}
+
+#HeadOpen .head-top {
+    padding: 0;
+    min-height: 1px;
+}
+
+#HeadOpen .head-top .basic-inner {
+    position: relative;
+}
+
+.basic-inner {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#HeadOpen .head-right-wrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*border-top: 17px solid #fff;*/
+    display: table;
+}
+
+#HeadOpen .head-right-wrap .inner {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#HeadOpen .head-right-wrap .inner a{
+    color: #333333;
+}
+
+#HeadOpen .head-right-wrap .inner .top {
+    font-size: 85.71429%;
+    margin-bottom: 8px;
+    padding-right: 20px;
+    display: inline-flex;
+}
+
+#HeadOpen .head-right-wrap .inner .top ul {
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: baseline;
+    margin-right: 16px;
+}
+
+#HeadOpen .head-right-wrap .inner .top ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    font-size: 12px;
+}
+
+#HeadOpen .head-right-wrap .inner .top ul li.language-language {
+    padding-right: 10px;
+    border-right: 1px #ddd solid;
+    background: url(/WSA/images/head_ico_lang.png) left center no-repeat;
+}
+
+#HeadOpen .head-right-wrap .inner .top ul li.language-language a {
+    padding-left: 20px;
+}
+
+
+/*ここから日本語吹き出し画面*/
+/* --- 吹き出し ------------------ */
+#makeEng h1{
+    font-size: 95%;
+    text-align: left;
+    margin: 10px;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+#makeEng h1 .small-cont{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 85.71429%;
+}
+
+.SelectEng{
+    background: #fff;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+.language-open {
+    position: relative;
+    cursor   : pointer;
+    padding-right: 15px;
+    padding-left: 5px;
+    background: url(/WSA/images/ico_arrow_01.png) right center no-repeat;
+}
+
+.selectLang {
+    display: none;
+}
+.Fukidashi {
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    left:160px;
+    border-radius: 5px;
+    background: #134490;
+    color: #fff;
+    font-weight: bold;
+    border: solid 1px #ccc;
+    z-index: 1000;
+}
+.Fukidashi:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 52px;
+    top: -20px;
+    margin-left: 10px;
+    border: solid transparent;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+    display: block;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #134490;
+    border-left: 15px solid transparent;
+  }
+
+  .language-open:hover + .Fukidashi {
+    display: block;
+  }
+
+
+/*日本語ポップ画面ここまで*/
+
+
+#HeadOpen .head-right-wrap .inner .top .search-box {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+#form1 {
+    position: relative;
+    max-width: 300px;
+}
+
+#form1 p.search-text {
+    margin: 0px;
+}
+
+#HeadOpen .head-right-wrap .inner .top .search-box #search {
+    background: none;
+    padding: 3px 26px 3px 5px;
+    width: 230px;
+    height: 24px;
+    border: 1px solid #ddd;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#HeadOpen .head-right-wrap .inner .top .search-box #search {
+    background: #f0f1f4;
+    padding: 3px 26px 3px 5px;
+    width: 230px;
+    height: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#HeadOpen .head-right-wrap .inner .top .search-box #search_btn {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+#HeadOpen .head-right-wrap .inner .btm {
+    font-size: 85.71429%;
+    padding-right: 20px;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul {
+    text-align: right;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-left: 1px solid #333;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 18px;
+    font-size: 12px;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul li a {
+    display: block;
+}
+
+.ico-blank-img {
+    display: inline-block;
+    margin-left: .3em;
+    vertical-align: baseline;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul li.support-support {
+    position: relative;
+    background: url(/ANA/images/ico_arrow_01.png) right center no-repeat;
+    padding-right: 0;
+    font-size: 12px;
+}
+
+#HeadOpen .head-right-wrap .inner .btm ul li.support-support a, #HeadOpen .head-right-wrap .inner .btm ul li.support-support span {
+    padding-right: 17px;
+}
+
+/*ここからお問い合わせ・サポート*/
+#makeSup h1{
+    font-size: 114.28571%;
+    text-align: left;
+    margin: 10px;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+#makeSup h1 .small-cont{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 85.71429%;
+}
+
+.support-support {
+    position: relative;
+    cursor   : pointer;
+    padding-right: 15px;
+    padding-left: 5px;
+    background: url(../images/ico_arrow_01.png) right center no-repeat;
+}
+
+.SelectInfo{
+    background: #fff;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+.SelectInfo ul{
+    display: inline-flex;
+}
+
+.SelectInfo span.infosuplist {
+    background: url(/WSA/images/ico_arrow_02.png) left center no-repeat;
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.selectSup {
+    display: none;
+}
+.infoSup {
+    width: 450px;
+    position: absolute;
+    top: 20px;
+    left: -150px;
+    border-radius: 5px;
+    background: #134490;
+    color: #fff;
+    font-weight: bold;
+    border: solid 1px #ccc;
+    z-index: 1000;
+}
+.infoSup:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 280px;
+    top: -17px;
+    margin-left: 10px;
+    border: solid transparent;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+    display: block;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #134490;
+    border-left: 15px solid transparent;
+  }
+
+  .support-support:hover + .infoSup {
+    display: block;
+  }
+
+
+/*お問い合わせ・サポート画面ここまで*/
+
+
+/*閉じる・ログインボタンここから*/
+#HeadOpen .head-right-wrap .btn.inner_btn{
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding-right: 10px;
+}
+
+#link_view {
+    background-color: #ffc600;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 10px 5px 5px;
+}
+
+#link_view span {
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 0;
+    width: 95px;
+    height: 100%;
+    background: url(/WSA/images/ico_arrow_006.png) right center no-repeat;
+}
+
+#link_hidden {
+    background-color: #f0f1f4;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 10px 5px 5px;
+}
+
+#link_hidden span {
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 0;
+    width: 95px;
+    height: 100%;
+    background: url(/WSA/images/ico_arrow_008.png) right center no-repeat;
+}
+/*閉じる・ログインボタンここまで*/
+
+/*折り畳み展開ポインタここから*/
+#login-area {
+    display: inline-block;
+    background: #f0f1f4;
+    padding: 10px 0 10px;
+    width: 100%;
+    height: 60px;
+    border-top: 1px #ddd solid;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#login-area .basic-inner {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#HeadOpen #head-bnr-amc {
+    position: absolute;
+    margin-left: 10px;
+}
+
+#HeadOpen #login-area .top {
+    position: absolute;
+    right: 0;
+    padding-bottom: 7px;
+}
+
+#HeadOpen #login-area .basic-inner .top .login-input {
+    margin: 0px;
+    height: 36px;
+}
+
+#HeadOpen #login-area .basic-inner .login-input li {
+    float: left;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+}
+
+#login-area .basic-inner .input-box {
+    margin: 0;
+    line-height: 0;
+    font-family: "メイリオ", "Meiryo", verdana, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka !important;
+    text-align: left;
+}
+
+#HeadOpen #login-area .login-input li input {
+    border: none;
+    border: 1px solid #ddd;
+    padding-left: 14px;
+    width: 210px;
+    height: 36px;
+    line-height: 36px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#login-area .basic-inner .input-box .cus-place {
+    left: 5px;
+    top: 2px;
+    text-align: left;
+    color: rgb(153, 153, 153);
+    line-height: 36px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    background: none !important;
+    font-size: 12px !important;
+}
+
+#HeadOpen #login-area .login-input li.btn-parts .btn-login {
+    border: none;
+    padding: 0;
+    display: block;
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-size: 85.71429%;
+    background: #ffc600;
+    text-align: center;
+    color: #333;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+#HeadOpen #login-area .login-input li.btn-parts .btn-login span {
+    display: block;
+    padding: 10px 20px;
+}
+
+#HeadOpen #login-area .login-input li.btn-parts .btn-other {
+    display: block;
+    font-size: 85.71429%;
+    background: #13448f;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    line-height: 1.2;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#HeadOpen #login-area .login-input li.btn-parts .btn-other a {
+    white-space: nowrap;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*折り畳み展開ポインタここまで*/

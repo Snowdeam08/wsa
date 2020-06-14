@@ -1,0 +1,170 @@
+a{
+    text-decoration: none;
+}
+.tabinfo02{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tabinfo02 .basic-inner .tab_col{
+    border-bottom: 3px solid #13448f;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#Gnav > ul.tab_col:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+
+.tabinfo02 .basic-inner .tab_col li{
+    padding: 12px 10px;
+    background: #fff;
+    color: #333;
+    font-weight: normal;
+    border: 1px #ddd solid;
+    border-bottom: 0;
+    border-left: 0;
+    font-size: 114.28571%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tab_col li{
+    width: 3%;
+    text-align: center;
+    display: table-cell;
+    cursor: pointer;
+}
+
+.tab-List{
+    flex-grow: 1;
+    padding:5px;
+    list-style:none;
+    text-align:center;
+    cursor:pointer;
+}
+
+.tabinfo02 .basic-inner .tab_col li.activing{
+    color: #fff;
+    border-color: #13448f;
+    background: #13448f;
+}
+
+.tabinfo02 .basic-inner .tab_col li.Activing{
+    color: #fff;
+    border-color: #13448f;
+    background: #13448f;
+}
+
+.tabinfo02 .basic-inner .tab_col li:first-child {
+    border-radius: 5px 0 0 0;
+    border-left: 1px #ddd solid;
+}
+
+.tabinfo02 .basic-inner .tab_col li.last {
+    -moz-border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 5px 0 0;
+}
+
+.Panel{
+    display:none;
+    width: 100%;
+}
+
+.PaneL{
+    display:none;
+    width: 100%;
+}
+
+.Panel.showing{
+    display:block;
+}
+
+.PaneL.Showing{
+    display:block;
+}
+
+.tabinfo02 .basic-inner .panel-Group{
+    min-width: 1080px;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+}
+
+.panel-Group .listinfo{
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.panel-Group .listinfo li {
+    border-bottom: 1px dotted #bbbbbb;
+    padding: 15px 20px 15px 60px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.panel-Group .listinfo li.hasLink {
+    padding: 0;
+}
+  
+.panel-Group .listinfo li.hasLink a {
+    display: block;
+    padding: 15px 40px 15px 60px;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.panel-Group .listinfo li.hasLink a:after {
+    content: url(../images/ico_arrow_001.png);
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.basic-inner .btn-info {
+    position: absolute;
+    right: 0;
+}
+
+.panel-Group .listinfo li .info-wrap{
+    display: table;
+    width: 100%;
+}
+
+.btn-info li {
+    border: 1px solid #dddddd;
+    background: #fff;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.btn-info li a {
+    text-decoration: none;
+    padding: 10px 45px 10px 20px;
+    display: block;
+    color: #333;
+}
+
+.btn-info li a:before {
+    background: url(../images/ico_arrow_001.png) left top no-repeat;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 13px;
+    position: absolute;
+    top: 45%;
+    margin-top: -5px;
+    right: 15px;
+}

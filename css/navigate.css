@@ -1,0 +1,105 @@
+#Gnav {
+  text-align: center;
+  position: relative;
+  background: #13448f;
+  border-top: 1px solid #fff;
+  display: block;
+  min-width: 1080px;
+}
+
+#Gnav > ul {
+  min-height: 1px;
+  margin: 0 auto;
+  position: relative;
+  list-style: none;
+  font-size: 85.71429%;
+  width: 1080px;
+  padding: 0px;
+  justify-content: center;
+}
+
+#Gnav > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+#Gnav > ul > li {
+  width: 160px;
+  background: #13448f;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  left:0;
+  top:0;
+}
+
+#Gnav > ul > li :hover{
+  width: 150px;
+  background: #3e649c;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  left:0;
+  top:0
+}
+
+#Gnav > ul > li > a {
+  display: block;
+  padding: 20px 0;
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  cursor: pointer;
+}
+
+#Gnav > ul > li.is-Active > a:after {
+  content: "";
+  background: url(/ANA/images/ico_arrow_011.png) center no-repeat #13448f;
+  position: absolute;
+  display: block;
+  left: 10px;
+  padding-left: 20px;
+  width: 130px;
+  height: 14px;
+  line-height: 32px;
+  font-size: 85.71429%;
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  bottom: 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 0 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.tab-link{
+  flex-grow: 1;
+  padding:5px;
+  list-style:none;
+  text-align:center;
+  cursor:pointer;
+}
+
+.panel-G{
+  min-width: 1080px;
+  border:solid 1px #CCC;
+  border-top:none;
+}
+.paneL{
+  display:none;
+}
+
+.paneL.is-Show{
+  display:block;
+}
+
+
